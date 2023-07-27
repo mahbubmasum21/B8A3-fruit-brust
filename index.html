@@ -20,7 +20,7 @@
             overflow-x: hidden;
         }
         @media only screen and (max-width: 600px) {
-            .query{
+            .box, .query{
                 display: none!important;
             }
         }
@@ -69,9 +69,9 @@
 <!-- main -->
     <main class="lg:px-0 px-5">
       <!-- Caurosel section -->
-        <section class="container mx-auto">
+        <section class="container mx-auto z-0">
             <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative items-center text-center justify-center pt-9 pb-9 px-0 lg:pt-36 lg:pb-72 w-full bg-cover bg-no-repeat rounded-lg bg-[#1212128e] bg-center bg-blend-darken bg-[url('images/banner1.png')]">
+                <div id="slide1" class="carousel-item relative items-center text-center justify-center pt-9 pb-9 px-0 lg:pt-32 lg:pb-60 w-full bg-cover bg-no-repeat rounded-lg bg-[#1212128e] bg-center bg-blend-darken bg-[url('images/banner1.png')]">
                   <div class="grid grid-cols-1 justify-center px-6">
                     <h2 class="text-white font-extrabold lg:text-5xl text-2xl">Exotic tastes at your doorstep</h2>
                     <p class="text-white text-xl font-semibold lg:my-9 my-5">We supply highly quality organic products</p>
@@ -82,7 +82,7 @@
                     <a href="#slide2" class="btn btn-circle text-white bg-[#121212] border-none">❯</a>
                   </div>
                 </div> 
-                <div id="slide2" class="carousel-item relative items-center text-center justify-center lg:pt-36 lg:pb-72 w-full bg-cover bg-no-repeat rounded-lg bg-[#1212128e] bg-center bg-blend-darken bg-[url('images/banner2.png')]">
+                <div id="slide2" class="carousel-item relative items-center text-center justify-center lg:pt-32 lg:pb-60 w-full bg-cover bg-no-repeat rounded-lg bg-[#1212128e] bg-center bg-blend-darken bg-[url('images/banner2.png')]">
                    <div class="grid grid-cols-1 justify-center px-6">
                         <h2 class="text-white font-extrabold lg:text-5xl text-2xl">Exotic tastes at your doorstep</h2>
                         <p class="text-white text-xl font-semibold lg:my-9 my-5">We supply highly quality organic products</p>
@@ -93,7 +93,7 @@
                     <a href="#slide3" class="btn btn-circle text-white bg-[#121212] border-none">❯</a>
                   </div>
                 </div> 
-                <div id="slide3" class="carousel-item relative items-center text-center justify-center lg:pt-36 lg:pb-72 w-full bg-cover bg-no-repeat rounded-lg bg-[#1212128e] bg-center bg-blend-darken bg-[url('images/banner3.png')]">
+                <div id="slide3" class="carousel-item relative items-center text-center justify-center lg:pt-32 lg:pb-60 w-full bg-cover bg-no-repeat rounded-lg bg-[#1212128e] bg-center bg-blend-darken bg-[url('images/banner3.png')]">
                     <div class="grid grid-cols-1 justify-center px-6">
                         <h2 class="text-white font-extrabold lg:text-5xl text-2xl">Exotic tastes at your doorstep</h2>
                         <p class="text-white text-xl font-semibold lg:my-9 my-5">We supply highly quality organic products</p>
@@ -104,7 +104,7 @@
                     <a href="#slide4" class="btn btn-circle text-white bg-[#121212] border-none">❯</a>
                   </div>
                 </div> 
-                <div id="slide4" class="carousel-item relative items-center text-center justify-center lg:pt-36 lg:pb-72 w-full bg-cover bg-no-repeat rounded-lg bg-[#1212128e] bg-center bg-blend-darken bg-[url('images/banner4.png')]">
+                <div id="slide4" class="carousel-item relative items-center text-center justify-center lg:pt-32 lg:pb-60 w-full bg-cover bg-no-repeat rounded-lg bg-[#1212128e] bg-center bg-blend-darken bg-[url('images/banner4.png')]">
                     <div class="grid grid-cols-1 justify-center px-6">
                         <h2 class="text-white font-extrabold lg:text-5xl text-2xl">Exotic tastes at your doorstep</h2>
                         <p class="text-white text-xl font-semibold lg:my-9 my-5">We supply highly quality organic products</p>
@@ -118,6 +118,101 @@
             </div>
         </section>
 
+        <!-- Fruits box section -->
+        <section class="box container mx-auto -mt-28 mb-10 invisible lg:visible md:visible">
+          <div class="hero">
+            <div class="hero-content lg:py-11 py-3 px-3 lg:px-11 text-center flex-col max-w-full rounded-lg z-10 bg-white" style="box-shadow: 0px 8px 60px 0px rgba(0, 0, 0, 0.05); ">
+              <div class="boxes flex gap-16 justify-center items-center flex-col lg:flex-row">
+                <div class="box1 text-center text-[#121212] flex flex-col items-center">
+                  <img src="images/fruit1.png" alt="" class="">
+                  <p class="text-xl font-medium">Fruits Expert</p>
+                </div>
+                  <div class="box2 text-center text-[#121212] flex flex-col items-center">
+                    <img src="images/fruit2.png" alt="" class="">
+                    <p class="text-xl font-medium">Fruits Expert</p>
+                  </div>
+                  <div class="box3 text-center text-[#121212] flex flex-col items-center">
+                    <img src="images/fruit3.png" alt="" class="">
+                    <p class="text-xl font-medium">Fruits Expert</p>
+                  </div>
+                  <div class="box4 text-center text-[#121212] flex flex-col items-center">
+                    <img src="images/fruit4.png" alt="" class="">
+                    <p class="text-xl font-medium">Fruits Expert</p>
+                  </div>
+                  <div class="box5 text-center text-[#121212] flex flex-col items-center">
+                    <img src="images/fruit5.png" alt="" class="">
+                    <p class="text-xl font-medium">Fruits Expert</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- deal section -->
+        <section class="deal container mx-auto">
+          <div class="hero">
+            <div class="hero-content pt-10 pb-10 lg:pt-14 lg:pb-8 px-3 lg:px-0 flex-col max-w-full bg-white">
+              <div class="deals flex lg:gap-16 gap-5 lg:justify-between justify-center items-center flex-col lg:flex-row">
+                <div class="dealtext text-center lg:text-left text-[#121212] flex-1">
+                  <h2 class="mb-2 lg:mb-5  lg:text-5xl text-3xl font-bold">Deal of the day</h2>
+                  <p class="text-lg">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="dealstat text-right text-[#121212] flex-1 items-center justify-end">
+                  <div class="grid grid-flow-col gap-7 text-center auto-cols-max justify-end">
+                    <div class="flex flex-col border-r-4 border-dotted border-[#121212] pr-6 lg:pr-7">
+                      <span class="countdown font-semibold lg:text-5xl text-2xl">
+                        <span style="--value:29;"></span>
+                      </span>
+                      days
+                    </div> 
+                    <div class="flex flex-col border-r-4 border-dotted border-[#121212] pr-6 lg:pr-7">
+                      <span class="countdown font-semibold lg:text-5xl text-2xl">
+                        <span style="--value:15;"></span>
+                      </span>
+                      hours
+                    </div> 
+                    <div class="flex flex-col border-r-4 border-dotted border-[#121212] pr-6 lg:pr-7">
+                      <span class="countdown font-semibold lg:text-5xl text-2xl">
+                        <span style="--value:25;"></span>
+                      </span>
+                      min
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-semibold lg:text-5xl text-2xl">
+                        <span style="--value:08;"></span>
+                      </span>
+                      sec
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Fruits Products section -->
+        <section class="products container mx-auto">
+          <div class="hero">
+            <div class="hero-content lg:py-11 py-3 px-3 lg:px-11 flex-col  bg-white">
+              <div class="boxes flex gap-16 justify-center items-center flex-col lg:flex-row">
+                <div class="box1 text-center text-[#121212] flex flex-col items-center">
+                  <img src="images/fruit1.png" alt="" class="">
+                  <p class="text-xl font-medium">Fruits Expert</p>
+                </div>
+                  <div class="box2 text-center text-[#121212] flex flex-col items-center">
+                    <img src="images/fruit2.png" alt="" class="">
+                    <p class="text-xl font-medium">Fruits Expert</p>
+                  </div>
+                  <div class="box3 text-center text-[#121212] flex flex-col items-center">
+                    <img src="images/fruit3.png" alt="" class="">
+                    <p class="text-xl font-medium">Fruits Expert</p>
+                  </div>
+                  <div class="box4 text-center text-[#121212] flex flex-col items-center">
+                    <img src="images/fruit4.png" alt="" class="">
+                    <p class="text-xl font-medium">Fruits Expert</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <!-- Meet the team section -->
         <section class="team container mx-auto">
           <div class="hero rounded-lg bg-cover" style="background-image: url(images/team.png);">
@@ -164,6 +259,7 @@
             </div>
           </div>
         </section>
+
         <!-- Why Choose Us section -->
         <section class="why container mx-auto">
           <div class="hero">
